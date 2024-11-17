@@ -1,0 +1,16 @@
+name: llm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - datasets
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - python-dotenv
+  - keras
+  - tensorflow
+  - kaggle
+prefix: /Users/babak/anaconda3/envs/llm
