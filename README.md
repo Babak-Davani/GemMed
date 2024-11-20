@@ -60,12 +60,11 @@ To ensure the chatbot meets its intended purpose:
 
 ## Technologies Used
 - **Hugging Face**: For dataset access and fine-tuning tools.
-- **PyTorch**: For model customization and training.
+- **Keras**: For model customization and training.
+- **Gemma**: Selected as the base LLM model for its robust capabilities and suitability for medical chatbot applications.
+- **LoRA**: Used to fine-tune the large language model efficiently, minimizing computational requirements while preserving model performance.
 - **Google Cloud Platform (GCP)**: For scalable deployment and experimentation.
 
-<div align="center">
-  <p><img src="Screenshots/Chatbot_Flow.png" alt="Chatbot Flow" width="800"></p>
-</div>
 
 ---
 
