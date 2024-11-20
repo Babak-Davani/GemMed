@@ -22,7 +22,7 @@ rad.json
 TestResults.xml
 /old/
 # Ignore Conda environment files
-/.ipynb_checkpoints/
+.ipynb_checkpoints/
 .DS_Store
 .env 
 
