@@ -21,3 +21,5 @@ rad.json
 #Test results file
 TestResults.xml
 /old/
+#Making .env file private
+.env
