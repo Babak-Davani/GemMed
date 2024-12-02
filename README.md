@@ -69,7 +69,7 @@ To ensure the chatbot meets its intended purpose:
 ---
 
 ## Reproducibility
-- All dependencies are captured in an `environment.yml` file for quick setup.
+- All dependencies are captured in an `llm_env.yml` file for quick setup.
 - Code is modularized for ease of experimentation and scalability.
 - Instructions for running the chatbot locally or on GCP are included.
 
@@ -77,9 +77,9 @@ To ensure the chatbot meets its intended purpose:
 1. Clone this repository.
 2. Set up the environment using:
    ```bash
-   conda env create -f environment.yml
+   conda env create -f llm_env.yml
    ```
-3. Follow the instructions in the notebook `Rebuilt_LoRA_Notebook.ipynb` to load the dataset and run the model.
+3. Follow the instructions in the notebook `Medical chatbot.ipynb` to load the dataset and run the model.
 
 ---
 
